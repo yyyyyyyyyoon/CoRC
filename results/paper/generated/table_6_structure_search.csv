@@ -1,0 +1,11 @@
+Panel,Removed component,#Feat.,R_MAE,ΔR_MAE,Worse cells,Val. regret,Decision
+—,Full,45,0.8139,—,—,0.03037,Reference
+A. Collaborative source,"General CF (UCF, SCF)",31,0.8216,+0.0077,11/12,0.03172,Retain
+A. Collaborative source,"Geography (Geo-UCF, Geo-SCF)",31,0.8348,+0.0208,12/12,0.03185,Retain
+A. Collaborative source,Service-side probes,23,0.8394,+0.0255,12/12,0.03151,Retain
+A. Collaborative source,User-side probes,23,0.8592,+0.0453,12/12,0.03222,Retain
+A. Collaborative source,"AS (AS-UCF, AS-SCF)",31,0.8111,-0.0028,1/12,0.03029,Remove
+B. Reliability evidence,"Similarity (sum, maximum)",33,0.8215,+0.0076,11/12,0.03083,Retain
+B. Reliability evidence,Dispersion (neighbor QoS variance),39,0.8330,+0.0191,12/12,0.03096,Retain
+B. Reliability evidence,"Support (count, availability)",25,0.8142,+0.0003,6/12,0.03002,Remove
+C. Combined removal,AS + Support,17,0.8130,-0.0010,4/12,0.03019,Final-17

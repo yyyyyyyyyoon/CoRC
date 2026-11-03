@@ -1,0 +1,6 @@
+condition,d_mae_rt_pct,d_mae_tp_pct,d_relative_rt_pct,d_relative_tp_pct,d_regret_pct,top1,cpa,opa,cells
+Train-derived global shift,-0.92,-1.36,0.0,0.0,0.0,0.7251,0.7862,0.9331,60
+Oracle candidate-wise shift,-5.29,-7.07,0.0,0.0,0.0,0.7251,0.7862,0.9331,60
+CoRC common component,3.2,2.34,0.0,0.0,0.0,0.7251,0.7862,0.9331,60
+CoRC relative component,-3.91,-3.82,-14.18,-13.66,-24.38,0.7565,0.8039,0.9451,60
+Full CoRC,-17.58,-18.51,-14.18,-13.66,-24.38,0.7565,0.8039,0.9451,60

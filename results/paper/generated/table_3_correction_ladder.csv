@@ -1,0 +1,5 @@
+Correction,Mechanism,Params per QoS,RT MAE,TP MAE,Regret,ΔRegret vs CoRC (%),Sig.,Weakest Holm p
+None (Base),—,0,0.4611,16.87,0.03534,+32.2,5/5,< 0.001
+Constant correction,one scalar per QoS,1,0.4564,16.58,0.03534,+32.2,5/5,< 0.001
+Linear correction,linear map over 17 inputs,18,0.4322,15.81,0.03170,+18.6,5/5,< 0.001
+CoRC,two-layer MLP over 17 inputs,"3,265",0.3741,14.15,0.02672,—,—,—

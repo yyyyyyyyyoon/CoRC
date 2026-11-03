@@ -1,0 +1,6 @@
+Variant,Dir.,Sim.,Disp.,Dim.,RT MAE,TP MAE,Regret,ΔRegret (%),Sig.,Weakest Holm p
+Core + Direction + Reliability (CoRC),✓,✓,✓,17,0.3741,14.15,0.02672,—,—,—
+Core + Direction,✓,,,5,0.3949,14.75,0.02847,+6.6,5/5,0.009
+Core + Reliability,,✓,✓,13,0.4019,15.11,0.03191,+19.4,5/5,< 0.001
+Core + shuffled evidence,~,~,~,17,0.4288,16.16,0.03565,+33.4,5/5,< 0.001
+Core only,,,,1,0.4273,16.13,0.03527,+32.0,5/5,< 0.001

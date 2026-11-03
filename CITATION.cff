@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+
+message: "If you use this software or its results, please cite the associated paper."
+
+title: "CoRC: Collaborative Residual Correction for QoS-Aware Server Selection in MEC"
+
+abstract: >-
+  Code and experimental results for CoRC, a post-hoc collaborative
+  residual correction method for QoS prediction in multi-access
+  edge computing. CoRC uses collaborative evidence to correct
+  predictions from existing QoS predictors without modifying their
+  internal models. Its effectiveness is evaluated in terms of
+  prediction accuracy and downstream server-selection regret.
+
+type: software
+license: MIT
+
+authors:
+  - family-names: Choi
+    given-names: Yunseo
+    affiliation: "Department of Software Engineering, Jeonbuk National University"
+
+  - family-names: Kim
+    given-names: Minjae
+    affiliation: "Department of Software Engineering, Jeonbuk National University"
+
+  - family-names: Ryu
+    given-names: Duksan
+    affiliation: "Department of Software Engineering, Jeonbuk National University"
+
+  - family-names: Kim
+    given-names: Suntae
+    affiliation: "Department of Software Engineering, Jeonbuk National University"
+
+  - family-names: Baik
+    given-names: Jongmoon
+    affiliation: "School of Computing, Korea Advanced Institute of Science and Technology"
+
+keywords:
+  - multi-access edge computing
+  - QoS prediction
+  - edge server selection
+  - residual correction
+  - collaborative filtering

@@ -1,0 +1,24 @@
+# Experiment outputs: every predictor's per-entry predictions, the
+# collaborative evidence, the candidate sets and the corrected predictions.
+# About 48 GB, rebuilt by running the pipeline. The small results the paper is
+# actually built from are copied into `results/paper/`, which is versioned.
+outputs/
+
+# The MEC side of the dataset. Shanghai Telecom is distributed free of charge
+# for educational and non-commercial use, but its terms state that
+# "Redistribution of this data to any other third party is not permited", so it
+# cannot be shipped here. See the README for how to obtain it.
+data/shanghai_telecom/files/
+
+# Retired code and results, kept locally because this is not a git repository
+# and there is nowhere else to recover them from.
+archive/
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store

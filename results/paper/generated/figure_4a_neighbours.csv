@@ -1,0 +1,7 @@
+n,r_mae,is_main,cells
+5,0.8499,False,30
+10,0.8464,False,30
+20,0.8419,True,30
+50,0.8374,False,30
+100,0.8345,False,30
+200,0.8334,False,30
